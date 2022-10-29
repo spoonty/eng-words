@@ -1,1 +1,1 @@
-# eng-words
+Run the *main.py* file and start learning English :)
