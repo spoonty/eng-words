@@ -18,7 +18,7 @@ with open("files/your_words.txt", "r") as f:
             if line != "\n":
                 dates.append(line.split("\n")[0])
 
-words_to_learn = input("Enter the number of words to learn (press Enter if you want default = 10) ")
+words_to_learn = input("Enter the number of words to learn (press Enter if you want to choose default = 10) ")
 if words_to_learn == "":
     words_to_learn = 10
 else:
@@ -37,3 +37,4 @@ with open("files/your_words.txt", "a") as f:
         f.write(string_to_write)
 
 print("Words added to files/your_words.txt")
+tmp = input()
